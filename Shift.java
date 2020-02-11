@@ -295,16 +295,17 @@ public class Shift
     {
         Scanner scnr = new Scanner(System.in);
         Shift shift = Init_Shift(scnr);
-        Number_Of_Players(4, "Bob", "Stan", "John", "Mike");
-        boolean win = false;
-        while( win == false )
+        Number_Of_Players(4, "Bob", "Stan", "John", "Mike"); // Default player names
+        boolean win = false;    // Primer for game state loop
+        while( win == false )   // While no one has won
         {
-            Current_Turn();
-            shift.PrintScreen();
-            Move_A_Chip(scnr);
-            win = Is_Game_Win();
-            if( win == false )
-            Next_Turn();
+            Current_Turn();     // Prints a message notifying the current player it is their turn
+            shift.PrintScreen();// Prints the gameBoard array to the output screen
+            Move_A_Chip(scnr);  // Attempts to move a chip based on certain constraints
+            win = Is_Game_Win();// Tests to see if anyone has won
+            if( win == false )  // If no one has won
+            Next_Turn();        // Proceed to the next turn
         }
+        Victory_Print();        // Victory screen
     }
 }
