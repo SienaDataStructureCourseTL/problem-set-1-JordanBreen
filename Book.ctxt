@@ -1,0 +1,25 @@
+#BlueJ class context
+comment0.target=Book
+comment0.text=\r\n\ A\ class\ to\ encapsulate\ information\ about\ a\ book\ in\ a\ store\r\n\ inventory\:\ its\ title\ and\ the\ number\ of\ copies\ in\ stock.\r\n\r\n\ DO\ NOT\ EDIT\ THIS\ CLASS\r\n\r\n\ @author\ Jim\ Teresco\r\n\ @version\ Fall\ 2019\r\n
+comment1.params=title
+comment1.target=Book(java.lang.String)
+comment1.text=\r\n\ Construct\ a\ book\ with\ the\ given\ title\ and\ a\ default\r\n\ inventory\ of\ 0.\r\n\ \r\n\ @param\ title\ The\ title\ of\ the\ book.\r\n
+comment2.params=title\ initialInventory
+comment2.target=Book(java.lang.String,\ int)
+comment2.text=\r\n\ Construct\ a\ book\ with\ the\ given\ title\ and\ initial\ \r\n\ inventory.\ \ The\ initial\ inventory\ must\ be\ in\ the\ range\ [0,100]\r\n\ \r\n\ @param\ title\ The\ title\ of\ the\ book.\r\n\ @param\ initialInventory\ The\ initial\ number\ of\ copies\ of\ the\ book\ in\ stock,\ which\r\n\ must\ be\ in\ the\ range\ [0,100].\ \ If\ not,\ a\ default\ of\ 0\ is\ used\ and\ an\ error\ message\r\n\ is\ printed.\r\n\ \r\n
+comment3.params=
+comment3.target=java.lang.String\ getTitle()
+comment3.text=\r\n\ Return\ the\ title\ of\ the\ book.\r\n\ \r\n\ @return\ The\ title\ of\ the\ book.\r\n\ \r\n
+comment4.params=
+comment4.target=int\ getNumInStock()
+comment4.text=\r\n\ Return\ the\ current\ number\ of\ copies\ of\ the\ book\ in\ stock.\r\n\ \r\n\ @return\ The\ current\ number\ of\ copies\ of\ the\ book\ in\ stock.\r\n\ \r\n
+comment5.params=
+comment5.target=void\ sellCopy()
+comment5.text=\r\n\ Sell\ a\ copy\ of\ the\ book,\ reducing\ the\ number\ of\ copies\ in\ stock\ by\ 1.\r\n\ Prints\ an\ error\ message\ if\ no\ copies\ are\ in\ stock\ when\ called.\r\n\ \r\n
+comment6.params=numCopies
+comment6.target=void\ addCopies(int)
+comment6.text=\r\n\ Add\ a\ shipment\ of\ a\ title\ to\ the\ inventory\ for\ the\ book.\ \ The\ number\ of\r\n\ copies\ received\ must\ be\ positive\ and\ cannot\ exceed\ 100.\r\n\ \r\n\ @param\ numCopies\ The\ number\ of\ copies\ to\ add\ to\ inventory,\ must\ be\ [1,100].\ \ If\ not,\r\n\ the\ inventory\ is\ not\ changed\ and\ an\ error\ is\ printed.\r\n
+comment7.params=
+comment7.target=java.lang.String\ toString()
+comment7.text=\r\n\ Return\ a\ String\ representing\ the\ book\:\ it's\ title\ and\ current\ stock.\r\n\ \r\n\ @return\ a\ String\ representing\ the\ book\:\ it's\ title\ and\ current\ stock.\r\n
+numComments=8

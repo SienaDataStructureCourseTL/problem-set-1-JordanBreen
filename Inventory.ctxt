@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.target=Inventory
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ Inventory\ here.\r\n\r\n\ @author\ JOrdan\ Breen\r\n\ @version\ 02/09/2020\r\n
+comment1.params=
+comment1.target=Inventory()
+comment2.params=inTitle
+comment2.target=boolean\ haveCopy(java.lang.String)
+comment3.params=inTitle
+comment3.target=boolean\ addBook(java.lang.String)
+comment4.params=inTitle\ inNum
+comment4.target=boolean\ addBook(java.lang.String,\ int)
+comment5.params=inTitle
+comment5.target=boolean\ removeBook(java.lang.String)
+comment6.params=inTitle\ inOrder
+comment6.target=int\ newShipment(java.lang.String,\ int)
+comment7.params=inThreshold
+comment7.target=java.lang.String\ getUnderstockedBooks(int)
+comment8.params=inTitle
+comment8.target=boolean\ sellCopy(java.lang.String)
+comment9.params=
+comment9.target=void\ main()
+numComments=10
